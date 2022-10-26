@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgeramaWeb", "BurgeramaWeb\BurgeramaWeb.csproj", "{A2272FD2-3678-4467-94E5-CD67A0A895ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2272FD2-3678-4467-94E5-CD67A0A895ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2272FD2-3678-4467-94E5-CD67A0A895ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2272FD2-3678-4467-94E5-CD67A0A895ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2272FD2-3678-4467-94E5-CD67A0A895ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83DD81EF-DB9B-4E55-82D2-7EF0DA3F611D}
+	EndGlobalSection
+EndGlobal

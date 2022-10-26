@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>600</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>User
+--
+- Email
+- Password
+- Postal
+- Street
+- City
+--
+&lt;Orders&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>420</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+- Id
+- Name
+- Category
+- CategoryID
+- Price
+- PrepTime
+--
+&lt;OrderProducts&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>390</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Order
+--
+- Id
+- PrepTime
+- ShipTime
+- TotalTime
+- TotalSum
+- Status
+--
+&lt;OrderProducts&gt;
+User
+Driver</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>440</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Driver
+--
+- Id
+- Name
+- Capacity
+- OpenOrders
+- WorkLoad
+--
+&lt;Orders&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1150</x>
+      <y>470</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>OrderProducts
+--
+- OrderId
+- ProductID
+--
+Order
+Product</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
